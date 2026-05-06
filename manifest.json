@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "updated": "2026-05-06T00:00:00.000Z",
+  "baseUrl": "https://raw.githubusercontent.com/alecs5am/ralphy-assets/main",
+  "releaseBaseUrl": "https://github.com/alecs5am/ralphy-assets/releases/download",
+  "required": {
+    "soviet-nostalgic/trend-soviet-bed.mp3": {
+      "template": "soviet-nostalgic",
+      "path": "required/soviet-nostalgic/trend-soviet-bed.mp3",
+      "destSubdir": "assets/music",
+      "sizeBytes": 983040,
+      "sha256": "3f1c69c692712069179cdc49f1d492185c32c016a539264c4373682ca17fa142",
+      "description": "Canonical Soviet trend bed (60s). Required by the soviet-nostalgic template — do not generate a substitute, the recognizability is half the format.",
+      "via": "raw"
+    }
+  },
+  "examples": {}
+}
