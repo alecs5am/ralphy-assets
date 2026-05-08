@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-05-06T00:00:00.000Z",
+  "updated": "2026-05-08T11:00:00.000Z",
   "baseUrl": "https://raw.githubusercontent.com/alecs5am/ralphy-assets/main",
   "releaseBaseUrl": "https://github.com/alecs5am/ralphy-assets/releases/download",
   "required": {
@@ -11,6 +11,16 @@
       "sizeBytes": 983040,
       "sha256": "3f1c69c692712069179cdc49f1d492185c32c016a539264c4373682ca17fa142",
       "description": "Canonical Soviet trend bed (60s). Required by the soviet-nostalgic template — do not generate a substitute, the recognizability is half the format.",
+      "via": "raw"
+    },
+    "brainrot-ai-meme/cs-surf-loop.mp4": {
+      "template": "brainrot-ai-meme",
+      "path": "required/brainrot-ai-meme/cs-surf-loop.mp4",
+      "destSubdir": "assets/uploaded",
+      "destFilename": "gameplay-loop.mp4",
+      "sizeBytes": 22528797,
+      "sha256": "59a5d5d2ec00836194279a65f290e55f64c48d88f9f6332ae39a63c7fda77906",
+      "description": "Default CS:GO surf gameplay loop for the brainrot-ai-meme template — 56s, 1080x960, h264+aac, neon ramps. Used as the bottom-half hypnotic-motion layer when the user has no own footage. Auto-pulled on `ralphy template use brainrot-ai-meme` and copied to assets/uploaded/gameplay-loop.mp4 (the path the template's reference-required gate checks).",
       "via": "raw"
     }
   },
