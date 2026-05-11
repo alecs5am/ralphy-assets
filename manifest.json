@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "updated": "2026-05-08T11:00:00.000Z",
+  "version": 2,
+  "updated": "2026-05-11T13:23:50.468Z",
   "baseUrl": "https://raw.githubusercontent.com/alecs5am/ralphy-assets/main",
   "releaseBaseUrl": "https://github.com/alecs5am/ralphy-assets/releases/download",
   "required": {
@@ -22,6 +22,577 @@
       "sha256": "59a5d5d2ec00836194279a65f290e55f64c48d88f9f6332ae39a63c7fda77906",
       "description": "Default CS:GO surf gameplay loop for the brainrot-ai-meme template — 56s, 1080x960, h264+aac, neon ramps. Used as the bottom-half hypnotic-motion layer when the user has no own footage. Auto-pulled on `ralphy template use brainrot-ai-meme` and copied to assets/uploaded/gameplay-loop.mp4 (the path the template's reference-required gate checks).",
       "via": "raw"
+    }
+  },
+  "pool": {
+    "italian-brainrot-characters": {
+      "description": "Canonical Italian Brainrot meme character reference images. Used by the italian-brainrot template as image-to-image references for character regeneration in new contexts, and as canonical hero images for prompt-writing. Each character is an AI-generated TikTok meme that went viral in 2024-2025.",
+      "defaultDestSubdir": "assets/references/characters",
+      "attributionRequired": true,
+      "license": "fair-use-meme-reference",
+      "items": {
+        "ballerina-cappuccina": {
+          "path": "pool/italian-brainrot-characters/ballerina-cappuccina.jpg",
+          "sizeBytes": 103991,
+          "sha256": "3a4c337fc1c328a1ee2415ee98be359df286bdeddf2d8d39b5e96f2588081093",
+          "description": "Anonymous TikTok user, part of the wider Italian brainrot trend that began with Tralalero Tralala Created as part of the 'Italian brainrot' trend, combining AI-generated imagery with nonsensical Italian-sounding phrases and robotic voice elements",
+          "sourceUrl": "https://brainrot.cyou/character/ballerina-cappuccina",
+          "worksWith": [
+            "italian-brainrot"
+          ],
+          "tags": [
+            "character",
+            "italian-brainrot",
+            "ai-meme",
+            "tiktok"
+          ],
+          "via": "raw"
+        },
+        "blueberrinni-octopussini": {
+          "path": "pool/italian-brainrot-characters/blueberrinni-octopussini.jpg",
+          "sizeBytes": 125827,
+          "sha256": "fa4ac4b12b220c9eb7faf3e96e52dfc6c05adb36b24331f903604bc1e0cd00b7",
+          "description": "A surreal Italian brainrot character combining a blueberry and an octopus, residing in the deep sea among coral reefs Created on March 10th, 2025 as part of the Italian Brainrot trend featuring AI-generated animal-fruit hybrids",
+          "sourceUrl": "https://brainrot.cyou/character/blueberrinni-octopussini",
+          "worksWith": [
+            "italian-brainrot"
+          ],
+          "tags": [
+            "character",
+            "italian-brainrot",
+            "ai-meme",
+            "tiktok"
+          ],
+          "via": "raw"
+        },
+        "bobrito-bandito": {
+          "path": "pool/italian-brainrot-characters/bobrito-bandito.jpg",
+          "sizeBytes": 36128,
+          "sha256": "2d31c4046c5ec34e070ef3310d68a3c5a6c3a3d3f74fcbef9dc47fd7703cc893",
+          "description": "A chaotic and absurd character from the Italian brainrot meme universe, often depicted as a rogue beaver with exaggerated outlaw traits, appearing in games and memes. Community-generated (no single confirmed creator)",
+          "sourceUrl": "https://brainrot.cyou/character/bobrito-bandito",
+          "worksWith": [
+            "italian-brainrot"
+          ],
+          "tags": [
+            "character",
+            "italian-brainrot",
+            "ai-meme",
+            "tiktok"
+          ],
+          "via": "raw"
+        },
+        "bombardiro-crocodilo": {
+          "path": "pool/italian-brainrot-characters/bombardiro-crocodilo.jpg",
+          "sizeBytes": 103535,
+          "sha256": "40a1f58eaee6ad51b2eb9f097a11f8c6f52ac8fd3bce61d755a1d923cbac7765",
+          "description": "Originally posted by TikTok user @armenjiharhanyan on February 20, 2025 Part of the 'Italian brainrot' trend, combining AI-generated Italian speech with surreal, bizarre imagery",
+          "sourceUrl": "https://brainrot.cyou/character/bombardiro-crocodilo",
+          "worksWith": [
+            "italian-brainrot"
+          ],
+          "tags": [
+            "character",
+            "italian-brainrot",
+            "ai-meme",
+            "tiktok"
+          ],
+          "via": "raw"
+        },
+        "bombombini-gusini": {
+          "path": "pool/italian-brainrot-characters/bombombini-gusini.jpg",
+          "sizeBytes": 40509,
+          "sha256": "0be2989150a00271eb94508f04d014ef458ee10498d1454b32dcf83e1afdf8ad",
+          "description": "An AI-generated Italian brainrot meme featuring a goose hybridized with a fighter jet or bomber plane, known for its surreal visuals and chaotic Italian narration Originally posted by TikTok user @armenjiharhanyan on March 5, 2025",
+          "sourceUrl": "https://brainrot.cyou/character/bombombini-gusini",
+          "worksWith": [
+            "italian-brainrot"
+          ],
+          "tags": [
+            "character",
+            "italian-brainrot",
+            "ai-meme",
+            "tiktok"
+          ],
+          "via": "raw"
+        },
+        "boneca-ambalabu": {
+          "path": "pool/italian-brainrot-characters/boneca-ambalabu.jpg",
+          "sizeBytes": 70248,
+          "sha256": "ae1b0cc60ea7f63a8ed5d2febef4b460612e4d82a1e53bb6a6dcb703c68f9804",
+          "description": "An AI-generated Indonesian brainrot meme character featuring a hybrid creature with a frog's head, car tire body, and human legs, known for its sinister narrative and viral spread across social media Originally posted by TikTok user @ofuscabreno on February 2nd, 2025",
+          "sourceUrl": "https://brainrot.cyou/character/boneca-ambalabu",
+          "worksWith": [
+            "italian-brainrot"
+          ],
+          "tags": [
+            "character",
+            "italian-brainrot",
+            "ai-meme",
+            "tiktok"
+          ],
+          "via": "raw"
+        },
+        "brr-brr-patapim": {
+          "path": "pool/italian-brainrot-characters/brr-brr-patapim.jpg",
+          "sizeBytes": 95784,
+          "sha256": "f603ed8c81c32f50e67a3ff6b6089014e4aae7bce0e172b9dc4cf94a6477b119",
+          "description": "An AI-generated Italian brainrot meme character depicted as a hybrid between a tree forest and a monkey with large feet, known for chaotic energy and nonsensical Italian phrases Originally posted by TikTok user @ofuscabreno in February 2025",
+          "sourceUrl": "https://brainrot.cyou/character/brr-brr-patapim",
+          "worksWith": [
+            "italian-brainrot"
+          ],
+          "tags": [
+            "character",
+            "italian-brainrot",
+            "ai-meme",
+            "tiktok"
+          ],
+          "via": "raw"
+        },
+        "brri-brri-bicus-dicus-bombicus": {
+          "path": "pool/italian-brainrot-characters/brri-brri-bicus-dicus-bombicus.jpg",
+          "sizeBytes": 94929,
+          "sha256": "ef51bc2dc3791e9dfc2a3bb9464bce059e54c432f08b9e7b1c51e0db8b2a954a",
+          "description": "Originally believed to have emerged from TikTok's AI-generated content creators in early 2025 Part of the 'Italian brainrot' trend, combining AI-generated Italian speech with surreal, bizarre imagery of anthropomorphic animals in historical contexts",
+          "sourceUrl": "https://brainrot.cyou/character/brri-brri-bicus-dicus-bombicus",
+          "worksWith": [
+            "italian-brainrot"
+          ],
+          "tags": [
+            "character",
+            "italian-brainrot",
+            "ai-meme",
+            "tiktok"
+          ],
+          "via": "raw"
+        },
+        "burbaloni-lulilolli": {
+          "path": "pool/italian-brainrot-characters/burbaloni-lulilolli.jpg",
+          "sizeBytes": 101620,
+          "sha256": "220c638ecf0e7fb7d72eea1ffd59dc0dfb5177f7f63565d6411b917ad81e4f59",
+          "description": "Unknown, emerged as part of the broader Italian brainrot trend in early 2025 Part of the 'Italian brainrot' trend, combining AI-generated pseudo-Italian speech with surreal, bizarre imagery of capybaras",
+          "sourceUrl": "https://brainrot.cyou/character/burbaloni-lulilolli",
+          "worksWith": [
+            "italian-brainrot"
+          ],
+          "tags": [
+            "character",
+            "italian-brainrot",
+            "ai-meme",
+            "tiktok"
+          ],
+          "via": "raw"
+        },
+        "cappuccino-assassino": {
+          "path": "pool/italian-brainrot-characters/cappuccino-assassino.jpg",
+          "sizeBytes": 85791,
+          "sha256": "480b2a463d874728ef53f7da0b2a65b617bdb9e10b5c3289fb688235674c0765",
+          "description": "An AI-generated Italian brainrot meme character depicted as an anthropomorphic coffee cup dressed as a ninja with katanas, part of the viral Italian brainrot trend TikTok user @alexey_pigeon, who also created other Italian brainrot characters like Frigo Camelo and Chimpanzini Bananini",
+          "sourceUrl": "https://brainrot.cyou/character/cappuccino-assassino",
+          "worksWith": [
+            "italian-brainrot"
+          ],
+          "tags": [
+            "character",
+            "italian-brainrot",
+            "ai-meme",
+            "tiktok"
+          ],
+          "via": "raw"
+        },
+        "chef-crabracadabra": {
+          "path": "pool/italian-brainrot-characters/chef-crabracadabra.jpg",
+          "sizeBytes": 75876,
+          "sha256": "e176adbe220339377880196878c5338812fc3eff20b3c15abd3fbfdfc3dbbdf4",
+          "description": "Unknown, likely originated from AI-generated content that spread virally across social media platforms Part of the broader 'Italian brainrot' trend, combining AI-generated imagery with pseudo-Italian phrases and absurdist humor",
+          "sourceUrl": "https://brainrot.cyou/character/chef-crabracadabra",
+          "worksWith": [
+            "italian-brainrot"
+          ],
+          "tags": [
+            "character",
+            "italian-brainrot",
+            "ai-meme",
+            "tiktok"
+          ],
+          "via": "raw"
+        },
+        "chimpanzini-bananini": {
+          "path": "pool/italian-brainrot-characters/chimpanzini-bananini.jpg",
+          "sizeBytes": 68717,
+          "sha256": "9bcdf525085330ed8c8d2bcd81eee4e52f23d8ba73d2bf58d0563e5c82c46b83",
+          "description": "An AI-generated Italian brainrot meme character depicted as a hybrid between a monkey or chimpanzee and a banana Originally posted by TikTok user @alexey_pigeon on March 13, 2025",
+          "sourceUrl": "https://brainrot.cyou/character/chimpanzini-bananini",
+          "worksWith": [
+            "italian-brainrot"
+          ],
+          "tags": [
+            "character",
+            "italian-brainrot",
+            "ai-meme",
+            "tiktok"
+          ],
+          "via": "raw"
+        },
+        "cocofanto-elefanto": {
+          "path": "pool/italian-brainrot-characters/cocofanto-elefanto.jpg",
+          "sizeBytes": 101547,
+          "sha256": "4e5f3ea25848a74621bbef48cba4a897211f7aa0f8e149035970a80fc47e7a8c",
+          "description": "Unknown, but popularized through multiple TikTok creators including @italienbrainrot and others Part of the 'Italian brainrot' trend, combining AI-generated Italian speech with surreal, bizarre imagery of animals and objects",
+          "sourceUrl": "https://brainrot.cyou/character/cocofanto-elefanto",
+          "worksWith": [
+            "italian-brainrot"
+          ],
+          "tags": [
+            "character",
+            "italian-brainrot",
+            "ai-meme",
+            "tiktok"
+          ],
+          "via": "raw"
+        },
+        "frigo-camelo": {
+          "path": "pool/italian-brainrot-characters/frigo-camelo.jpg",
+          "sizeBytes": 81960,
+          "sha256": "04764ffd501f79b4f524030c7893c10efef2747a90102da6d4a9a47ae87f9398",
+          "description": "An AI-generated Italian brainrot meme character depicted as a camel with a refrigerator for a body and Timberland boots, known for its melancholic journey across European cities Originally posted by TikTok user @ofuscabreno in February 2025, the same creator behind other AI brainrot animals like Boneca Ambalabu and Brr Brr Patapim",
+          "sourceUrl": "https://brainrot.cyou/character/frigo-camelo",
+          "worksWith": [
+            "italian-brainrot"
+          ],
+          "tags": [
+            "character",
+            "italian-brainrot",
+            "ai-meme",
+            "tiktok"
+          ],
+          "via": "raw"
+        },
+        "frulli-frulla": {
+          "path": "pool/italian-brainrot-characters/frulli-frulla.jpg",
+          "sizeBytes": 61287,
+          "sha256": "2b34fa461f705b1a6a82d270d5cae6f2ba09035101ad2d9e147847ded0223333",
+          "description": "Part of the broader Italian brainrot trend, with various creators contributing to its development Emerged as part of the AI-generated Italian animal meme trend, featuring phonk music remixes and surreal desert scenarios",
+          "sourceUrl": "https://brainrot.cyou/character/frulli-frulla",
+          "worksWith": [
+            "italian-brainrot"
+          ],
+          "tags": [
+            "character",
+            "italian-brainrot",
+            "ai-meme",
+            "tiktok"
+          ],
+          "via": "raw"
+        },
+        "garam-mararam-madu-dung-dung": {
+          "path": "pool/italian-brainrot-characters/garam-mararam-madu-dung-dung.jpg",
+          "sizeBytes": 65628,
+          "sha256": "9d4767b71aea0ffc895830348fc79de75b1ca7fef5aa65ad073afb4323df83f5",
+          "description": "A viral meme featuring anomalous salt and honey storage containers depicted as supernatural beings, part of the Anomali TikTok trend influenced by Italian brainrot Originally created by TikTok user @noxaasht",
+          "sourceUrl": "https://brainrot.cyou/character/garam-mararam-madu-dung-dung",
+          "worksWith": [
+            "italian-brainrot"
+          ],
+          "tags": [
+            "character",
+            "italian-brainrot",
+            "ai-meme",
+            "tiktok"
+          ],
+          "via": "raw"
+        },
+        "giraffa-celeste": {
+          "path": "pool/italian-brainrot-characters/giraffa-celeste.jpg",
+          "sizeBytes": 40632,
+          "sha256": "ce41ec608e2d5064033d82f787fdf15910acf762d17c79dc2adc1fffd8ce9716",
+          "description": "Originally posted by TikTok user @ofuscabreno on February 15, 2025 Part of the 'Italian brainrot' trend, featuring AI-generated Italian poetry with space and celestial themes",
+          "sourceUrl": "https://brainrot.cyou/character/giraffa-celeste",
+          "worksWith": [
+            "italian-brainrot"
+          ],
+          "tags": [
+            "character",
+            "italian-brainrot",
+            "ai-meme",
+            "tiktok"
+          ],
+          "via": "raw"
+        },
+        "glorbo-fruttodrillo": {
+          "path": "pool/italian-brainrot-characters/glorbo-fruttodrillo.jpg",
+          "sizeBytes": 85005,
+          "sha256": "1d073284c1d55049584c611b54a434eccc79a0f8b76078d53ad175ea13520149",
+          "description": "An AI-generated Italian brainrot meme character featuring a watermelon-alligator hybrid with a crocodile head and a striped watermelon body Part of the Italian brainrot meme trend, featuring AI-generated animal characters with Italian-sounding names",
+          "sourceUrl": "https://brainrot.cyou/character/glorbo-fruttodrillo",
+          "worksWith": [
+            "italian-brainrot"
+          ],
+          "tags": [
+            "character",
+            "italian-brainrot",
+            "ai-meme",
+            "tiktok"
+          ],
+          "via": "raw"
+        },
+        "graipussi-medussi": {
+          "path": "pool/italian-brainrot-characters/graipussi-medussi.jpg",
+          "sizeBytes": 92892,
+          "sha256": "ca7908f8a888dda2fc41e6da5ed700304cdb23640e566f38bf72709a93fab703",
+          "description": "A surreal AI-generated character combining grapes and jellyfish, known for its sticky tentacles and memory-erasing touch. Unknown, part of the Italian Brainrot trend",
+          "sourceUrl": "https://brainrot.cyou/character/graipussi-medussi",
+          "worksWith": [
+            "italian-brainrot"
+          ],
+          "tags": [
+            "character",
+            "italian-brainrot",
+            "ai-meme",
+            "tiktok"
+          ],
+          "via": "raw"
+        },
+        "il-cacto-hipopotamo": {
+          "path": "pool/italian-brainrot-characters/il-cacto-hipopotamo.jpg",
+          "sizeBytes": 65311,
+          "sha256": "f512756d51dc9e1170f532a0a6e11dcbbc3420a2bdd80b98265937d48ade95b0",
+          "description": "A surreal AI-generated Italian brainrot meme character combining features of a cactus and a hippopotamus. Il Cacto Hipopotamo is a hybrid creature that merges the rugged defense of a cactus with the raw power of a hippopotamus. Often depicted wearing sandals on its cactus torso, this character embodies the absurdity and surrealism characteristic of the Italian brainrot meme trend. Its appearances are marked by vibrant colors, exaggerated features, and nonsensical scenarios, contributing to its popularity across social media platforms.",
+          "sourceUrl": "https://brainrot.cyou/character/il-cacto-hipopotamo",
+          "worksWith": [
+            "italian-brainrot"
+          ],
+          "tags": [
+            "character",
+            "italian-brainrot",
+            "ai-meme",
+            "tiktok"
+          ],
+          "via": "raw"
+        },
+        "la-vaca-saturno-saturnita": {
+          "path": "pool/italian-brainrot-characters/la-vaca-saturno-saturnita.jpg",
+          "sizeBytes": 78211,
+          "sha256": "a6da2c31d1ed2bb43bd0ba4d2a14d24532b70a2a7a653b5e00752b59d769ea69",
+          "description": "Unknown, emerged from the Italian brainrot community Part of the 'Italian brainrot' trend, blending surreal AI-generated imagery with cosmic and bovine themes",
+          "sourceUrl": "https://brainrot.cyou/character/la-vaca-saturno-saturnita",
+          "worksWith": [
+            "italian-brainrot"
+          ],
+          "tags": [
+            "character",
+            "italian-brainrot",
+            "ai-meme",
+            "tiktok"
+          ],
+          "via": "raw"
+        },
+        "lirili-larila": {
+          "path": "pool/italian-brainrot-characters/lirili-larila.jpg",
+          "sizeBytes": 69761,
+          "sha256": "2017387c1ef03445d51f4b9a6a484d322077a6a14ca2954ac6fbf446acfd10e2",
+          "description": "Unknown, emerged as part of the collective Italian brainrot meme universe Part of the 'Italian brainrot' trend, combining AI-generated imagery with absurd, nonsensical elements and Italian cultural references",
+          "sourceUrl": "https://brainrot.cyou/character/lirili-larila",
+          "worksWith": [
+            "italian-brainrot"
+          ],
+          "tags": [
+            "character",
+            "italian-brainrot",
+            "ai-meme",
+            "tiktok"
+          ],
+          "via": "raw"
+        },
+        "orangutini-ananasini": {
+          "path": "pool/italian-brainrot-characters/orangutini-ananasini.jpg",
+          "sizeBytes": 68848,
+          "sha256": "84cc4837e75dafcb97c4c388f48c04d18576999a386e6b487a5f989b4a695640",
+          "description": "TikTok user @alexey_pigeon Emerged as part of the 'Italian brainrot' trend, blending AI-generated Italian speech with surreal, absurd imagery",
+          "sourceUrl": "https://brainrot.cyou/character/orangutini-ananasini",
+          "worksWith": [
+            "italian-brainrot"
+          ],
+          "tags": [
+            "character",
+            "italian-brainrot",
+            "ai-meme",
+            "tiktok"
+          ],
+          "via": "raw"
+        },
+        "pot-hotspot": {
+          "path": "pool/italian-brainrot-characters/pot-hotspot.jpg",
+          "sizeBytes": 32380,
+          "sha256": "df204b2b294b6db7846978065dc3412b453cfad066fe6c0779b8e1cc584cfb8d",
+          "description": "An AI-generated Indonesian brainrot meme character featuring a skeleton with a human-like face desperately seeking Wi-Fi hotspot access from friends Part of Indonesian brainrot trend, exact original creator unclear",
+          "sourceUrl": "https://brainrot.cyou/character/pot-hotspot",
+          "worksWith": [
+            "italian-brainrot"
+          ],
+          "tags": [
+            "character",
+            "italian-brainrot",
+            "ai-meme",
+            "tiktok"
+          ],
+          "via": "raw"
+        },
+        "rhino-toasterino": {
+          "path": "pool/italian-brainrot-characters/rhino-toasterino.jpg",
+          "sizeBytes": 82653,
+          "sha256": "c2a05843bfc51f0ab797605e5fae5bc3b306f2d98924dcb974e3f5c3895c824d",
+          "description": "A character from the Italian Brainrot meme trend, depicted as a rhino-toaster hybrid. Rhino Toasterino is a viral character within the Italian Brainrot meme ecosystem, known for its surreal depiction of a rhino combined with toaster elements. It has gained popularity through short-form videos on platforms like TikTok and YouTube, often featured in absurd and humorous scenarios that play on Italian stereotypes and internet culture.",
+          "sourceUrl": "https://brainrot.cyou/character/rhino-toasterino",
+          "worksWith": [
+            "italian-brainrot"
+          ],
+          "tags": [
+            "character",
+            "italian-brainrot",
+            "ai-meme",
+            "tiktok"
+          ],
+          "via": "raw"
+        },
+        "tigrrullini-watermellini": {
+          "path": "pool/italian-brainrot-characters/tigrrullini-watermellini.jpg",
+          "sizeBytes": 149065,
+          "sha256": "6732948d5d5ed4de24fc501d7c34d1d0409c7753720eb88cc67ff6ef0ca2fed0",
+          "description": "An AI-generated Italian brainrot meme character featuring a tiger's head on a watermelon body, creating a surreal and absurd hybrid creature Part of the Italian brainrot trend, exact original creator unclear",
+          "sourceUrl": "https://brainrot.cyou/character/tigrrullini-watermellini",
+          "worksWith": [
+            "italian-brainrot"
+          ],
+          "tags": [
+            "character",
+            "italian-brainrot",
+            "ai-meme",
+            "tiktok"
+          ],
+          "via": "raw"
+        },
+        "tracotucotulu-delapeladustuz": {
+          "path": "pool/italian-brainrot-characters/tracotucotulu-delapeladustuz.jpg",
+          "sizeBytes": 57691,
+          "sha256": "fbdfb59c41f27277eba12351d8da2ce9a1b5db6220b7d9540883600d445d17cf",
+          "description": "An AI-generated Italian brainrot character that combines a camel with a Volkswagen Beetle, creating a surreal six-legged automotive-biological hybrid Originally by @turzin_sfd, adopted by Italian brainrot community",
+          "sourceUrl": "https://brainrot.cyou/character/tracotucotulu-delapeladustuz",
+          "worksWith": [
+            "italian-brainrot"
+          ],
+          "tags": [
+            "character",
+            "italian-brainrot",
+            "ai-meme",
+            "tiktok"
+          ],
+          "via": "raw"
+        },
+        "tralalero-tralala": {
+          "path": "pool/italian-brainrot-characters/tralalero-tralala.jpg",
+          "sizeBytes": 69296,
+          "sha256": "a70a26678c22711a4868f9d2c2f7ba72029aa9feacaaf9da127762b024e23d0c",
+          "description": "Originally posted by TikTok user @eZburger401 (account since banned), later popularized by various content creators Part of the 'Italian brainrot' trend, combining AI-generated Italian speech with surreal, bizarre imagery",
+          "sourceUrl": "https://brainrot.cyou/character/tralalero-tralala",
+          "worksWith": [
+            "italian-brainrot"
+          ],
+          "tags": [
+            "character",
+            "italian-brainrot",
+            "ai-meme",
+            "tiktok"
+          ],
+          "via": "raw"
+        },
+        "tric-trac-baraboom": {
+          "path": "pool/italian-brainrot-characters/tric-trac-baraboom.jpg",
+          "sizeBytes": 59494,
+          "sha256": "7efc63b7a0c2189d923e19cad5d58c6700c0c69ff72efd39b3e38e8ea6f23af9",
+          "description": "No single creator; it is the collective result of a viral trend on TikTok. Part of the 'Italian brainrot' trend, combining AI-generated Italian speech with surreal, bizarre imagery.",
+          "sourceUrl": "https://brainrot.cyou/character/tric-trac-baraboom",
+          "worksWith": [
+            "italian-brainrot"
+          ],
+          "tags": [
+            "character",
+            "italian-brainrot",
+            "ai-meme",
+            "tiktok"
+          ],
+          "via": "raw"
+        },
+        "trulimero-trulicina": {
+          "path": "pool/italian-brainrot-characters/trulimero-trulicina.jpg",
+          "sizeBytes": 65099,
+          "sha256": "d2c70f9569a1e43b1c22de4ad822bb2c3f46d79e7b71c026867205afa87c06a8",
+          "description": "Originally posted by TikTok user @zanahoriatan33 on January 28, 2025, with the 'Trippi Troppi' version by @1raidex_ on February 18, 2025 Part of the 'Italian brainrot' trend, featuring AI-generated animal hybrids with nonsensical Italian audio",
+          "sourceUrl": "https://brainrot.cyou/character/trulimero-trulicina",
+          "worksWith": [
+            "italian-brainrot"
+          ],
+          "tags": [
+            "character",
+            "italian-brainrot",
+            "ai-meme",
+            "tiktok"
+          ],
+          "via": "raw"
+        },
+        "tung-tung-tung-sahur": {
+          "path": "pool/italian-brainrot-characters/tung-tung-tung-sahur.jpg",
+          "sizeBytes": 80253,
+          "sha256": "24412b94340952a8172a9c47d267833ccd8d4f99a22fe43afb5503a82267419c",
+          "description": "Originally created by TikTok user @noxaasht Based on a Ramadan tradition in Indonesia where drummers wake neighborhoods for Sahur (pre-dawn meal before fasting)",
+          "sourceUrl": "https://brainrot.cyou/character/tung-tung-tung-sahur",
+          "worksWith": [
+            "italian-brainrot"
+          ],
+          "tags": [
+            "character",
+            "italian-brainrot",
+            "ai-meme",
+            "tiktok"
+          ],
+          "via": "raw"
+        },
+        "u-din-din-din-din-dun": {
+          "path": "pool/italian-brainrot-characters/u-din-din-din-din-dun.jpg",
+          "sizeBytes": 53841,
+          "sha256": "5114d9e76e9d3f4f86365fc54071a277805d796a1f240b20026a1e255a757ef2",
+          "description": "Unknown, but popularized through multiple TikTok creators in early 2025 Part of the broader 'Italian brainrot' trend, combining AI-generated Italian speech with surreal, bizarre imagery and transformation narratives",
+          "sourceUrl": "https://brainrot.cyou/character/u-din-din-din-din-dun",
+          "worksWith": [
+            "italian-brainrot"
+          ],
+          "tags": [
+            "character",
+            "italian-brainrot",
+            "ai-meme",
+            "tiktok"
+          ],
+          "via": "raw"
+        },
+        "zibra-zubra-zibralini": {
+          "path": "pool/italian-brainrot-characters/zibra-zubra-zibralini.jpg",
+          "sizeBytes": 96582,
+          "sha256": "84536637a372db22f0b2b49be99fd2886054915b2a00320ac24e773cfdd7b2ba",
+          "description": "A surreal AI-generated Italian brainrot character featuring a zebra with a watermelon body and human legs, known for its haunting stare and absurd fruit-animal hybrid design Part of Italian brainrot trend, popularized by various TikTok creators including @alexey_pigeon",
+          "sourceUrl": "https://brainrot.cyou/character/zibra-zubra-zibralini",
+          "worksWith": [
+            "italian-brainrot"
+          ],
+          "tags": [
+            "character",
+            "italian-brainrot",
+            "ai-meme",
+            "tiktok"
+          ],
+          "via": "raw"
+        }
+      }
     }
   },
   "examples": {}
