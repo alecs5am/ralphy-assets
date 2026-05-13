@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-05-13T13:18:01.564Z",
+  "updated": "2026-05-13T16:30:00.000Z",
   "baseUrl": "https://raw.githubusercontent.com/alecs5am/ralphy-assets/main",
   "releaseBaseUrl": "https://github.com/alecs5am/ralphy-assets/releases/download",
   "required": {
@@ -1296,5 +1296,74 @@
       }
     }
   },
-  "examples": {}
+  "examples": {
+    "showcase": {
+      "description": "Flat collection of finished UGC mp4s — one final cut per project. Visual reference for what the pipeline produces end-to-end. All 9:16, 1080×1920, 30fps, h264+aac, sized ≤ 50 MB so they stream from raw.githubusercontent.com directly.",
+      "indexPath": "examples/showcase/INDEX.md",
+      "items": {
+        "glitter-cream-001": {
+          "path": "examples/showcase/glitter-cream-001.mp4",
+          "sizeBytes": 22861907,
+          "sha256": "4518fc7b93c0f9ab52f83d342639fcc9bba61838672adb316bd6920de32455e3",
+          "durationSec": 17.2,
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "style": "ugc-selfie",
+          "models": ["kling-v3.0-pro"],
+          "description": "Fluttershy-branded glitter-cream jar UGC selfie review — locked product + model master-shots passed as --ref on every gen to kill identity drift between scenes.",
+          "via": "raw"
+        },
+        "flipper-hypermotion-001": {
+          "path": "examples/showcase/flipper-hypermotion-001.mp4",
+          "sizeBytes": 26244526,
+          "sha256": "72352f9fa14c57475e6374214a4eca30847e9c402b749554d910dda22436a137",
+          "durationSec": 15.1,
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "style": "japanese-hyper-motion-ad",
+          "description": "Flipper Zero ad — 8 cuts at ~1.9s avg, orchestral-hyperpop with drum-fill stings, chibi orbit on tile-grid floor, ends on katakana slogan 「ハック・スベテヲ」.",
+          "via": "raw"
+        },
+        "occult-mockumentary-001": {
+          "path": "examples/showcase/occult-mockumentary-001.mp4",
+          "sizeBytes": 41323368,
+          "sha256": "dbddbdf3af46c05dc169ffa19d6c8f533b61d80fca3c6ea4495c113f0a3d6af3",
+          "durationSec": 32.8,
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "style": "found-footage-horror",
+          "models": ["seedance-2.0", "kling-v3.0-pro"],
+          "description": "First-person handheld voidstomper-style occult mockumentary — cult-circle discovery + monster turn, REC dot + timecode overlay, diegetic EN captions, no VO.",
+          "via": "raw"
+        },
+        "analog-horror-fridge-001": {
+          "path": "examples/showcase/analog-horror-fridge-001.mp4",
+          "sizeBytes": 29338397,
+          "sha256": "3e22836742424efe4829656999f680fba8321b338c1b619268a3fe7389d62378",
+          "durationSec": 29.5,
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "style": "analog-horror-psa",
+          "description": "Compliance Bulletin 9-D — analog-horror PSA with cold ElevenLabs robo-female VO, IF / DO-NOT / BUT / AND beat structure, glitchx font, yellow pixelated icons, no music. Compressed from 188 MB → 29 MB via CRF 30.",
+          "via": "raw"
+        },
+        "nothing-hp1-001": {
+          "path": "examples/showcase/nothing-hp1-001.mp4",
+          "sizeBytes": 48436022,
+          "sha256": "91762346ad8f17ebe41a104bdb16f5f75e445e484c1f68d986b0a48ad9fa8912",
+          "durationSec": 54.1,
+          "width": 1080,
+          "height": 1920,
+          "fps": 30,
+          "style": "multi-scene-product-ad",
+          "description": "Nothing HP1 headphones launch ad — 27 scenes, identity-locked wardrobe / hair refs propagated across all i2v batches, full UGC-style product reveal.",
+          "via": "raw"
+        }
+      }
+    }
+  }
 }
