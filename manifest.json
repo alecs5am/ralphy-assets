@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-05-11T13:23:50.468Z",
+  "updated": "2026-05-13T13:18:01.564Z",
   "baseUrl": "https://raw.githubusercontent.com/alecs5am/ralphy-assets/main",
   "releaseBaseUrl": "https://github.com/alecs5am/ralphy-assets/releases/download",
   "required": {
@@ -591,6 +591,707 @@
             "tiktok"
           ],
           "via": "raw"
+        }
+      }
+    },
+    "trend-music": {
+      "description": "Recognizable horror / dread music beds heavily used on horror-TikTok in 2024-2026. Sourced from the canonical 'Horror TikTok' YouTube playlist (PLan_O7sHy-ObDv02Jn67zodPb1MrdoIvo). Each item ships the full mp3 plus a pre-rendered 20-second hook clip (the loudest middle-of-track region with fade-in/out) under `hooks/`. The agent should pick a track whose `mood` and `tags` match the scenario, then either drop the hook clip directly (TikTok-style) or use the full mp3 and trim in the composition.",
+      "defaultDestSubdir": "assets/music",
+      "attributionRequired": false,
+      "license": "fair-use-meme-reference",
+      "items": {
+        "mandela-catalogue-amazing-grace": {
+          "path": "pool/trend-music/mandela-catalogue-amazing-grace.mp3",
+          "sizeBytes": 3257324,
+          "sha256": "7ffc46acf63007b885094725ff7a8277866439e244d50a419f75368d4284ad6b",
+          "durationSec": 136,
+          "description": "Distorted hymn-style backing track from the Mandela Catalogue analog-horror series. Used in TikTok edits for slow-burn dread reveals and 'when something's wrong' face-cam reactions.",
+          "sourceUrl": "https://www.youtube.com/watch?v=1xpR3gEPigY",
+          "sourceTitle": "Mandela Catalogue: Amazing Grace",
+          "mood": "analog-horror",
+          "tags": [
+            "horror",
+            "tiktok-trend",
+            "music",
+            "analog-horror",
+            "hymn",
+            "mandela-catalogue",
+            "slow-burn"
+          ],
+          "hook": {
+            "path": "pool/trend-music/hooks/mandela-catalogue-amazing-grace-hook.mp3",
+            "sizeBytes": 481580,
+            "sha256": "a13dba3b330b9c40dc229abbd53a3b140716789df2799c469c8482ba2a162d12",
+            "durationSec": 20
+          },
+          "via": "yt-dlp"
+        },
+        "crystal-castles-kerosene-slowed": {
+          "path": "pool/trend-music/crystal-castles-kerosene-slowed.mp3",
+          "sizeBytes": 5162732,
+          "sha256": "3be877590579b3e8dae15dcbcb9bc984931f4bc8a3026c1e369150ad6431007f",
+          "durationSec": 215,
+          "description": "Slowed-and-reverb edit of Crystal Castles 'Kerosene'. One of the canonical horror-TikTok beds for liminal / surreal footage. Heavy distortion drop ~mid-track.",
+          "sourceUrl": "https://www.youtube.com/watch?v=Pe8xFYBGi5o",
+          "sourceTitle": "Crystal Castles — Kerosene (slowed)",
+          "mood": "slowed-witch-house",
+          "tags": [
+            "horror",
+            "tiktok-trend",
+            "music",
+            "crystal-castles",
+            "slowed-reverb",
+            "witch-house",
+            "liminal"
+          ],
+          "hook": {
+            "path": "pool/trend-music/hooks/crystal-castles-kerosene-slowed-hook.mp3",
+            "sizeBytes": 481580,
+            "sha256": "9255205435aa31077fac793e63ac837c51ab3ba39619efd20e4d5bc0ed624ebf",
+            "durationSec": 20
+          },
+          "via": "yt-dlp"
+        },
+        "dead-silence-soundtrack": {
+          "path": "pool/trend-music/dead-silence-soundtrack.mp3",
+          "sizeBytes": 4315436,
+          "sha256": "00439ba3215378435c1759770950b17cf83c365437cf8f4a5b1942b9ffd306cf",
+          "durationSec": 180,
+          "description": "Music-box motif from the 2007 horror film 'Dead Silence'. Recurrent on TikTok 'creepy doll / cursed object' POVs.",
+          "sourceUrl": "https://www.youtube.com/watch?v=6ON7npaXc3M",
+          "sourceTitle": "Dead Silence — main theme",
+          "mood": "music-box-horror",
+          "tags": [
+            "horror",
+            "tiktok-trend",
+            "music",
+            "film-score",
+            "music-box",
+            "cursed-doll"
+          ],
+          "hook": {
+            "path": "pool/trend-music/hooks/dead-silence-soundtrack-hook.mp3",
+            "sizeBytes": 481580,
+            "sha256": "267be08fdf8bd41b708f5d7acb04533fb6c930a58e981fd9acba31df3096e7c8",
+            "durationSec": 20
+          },
+          "via": "yt-dlp"
+        },
+        "suspense-horror-piano-music-box": {
+          "path": "pool/trend-music/suspense-horror-piano-music-box.mp3",
+          "sizeBytes": 4586156,
+          "sha256": "9c88dcffc17b3cfed507a177011a857f51d0a8b72943f9d7d92d89476b3cc37a",
+          "durationSec": 191,
+          "description": "Generic suspense piano + music-box bed, royalty-free style. Drop-in for childhood-horror / haunted-nursery POVs without copyright concerns.",
+          "sourceUrl": "https://www.youtube.com/watch?v=BqilzSEtEPw",
+          "sourceTitle": "Suspense — Piano & Music Box",
+          "mood": "suspense-piano",
+          "tags": [
+            "horror",
+            "tiktok-trend",
+            "music",
+            "royalty-free",
+            "music-box",
+            "suspense",
+            "nursery"
+          ],
+          "hook": {
+            "path": "pool/trend-music/hooks/suspense-horror-piano-music-box-hook.mp3",
+            "sizeBytes": 481580,
+            "sha256": "f420ece83085e1b9de2dc37f2dd5603f03427f065e5e1cbb9db05bc94e994a20",
+            "durationSec": 20
+          },
+          "via": "yt-dlp"
+        },
+        "crystal-castles-untrust-us": {
+          "path": "pool/trend-music/crystal-castles-untrust-us.mp3",
+          "sizeBytes": 3512492,
+          "sha256": "a68139d90607a16311a72e77b37265eceb812d4d8f906c1eb7e34a7e31aeede0",
+          "durationSec": 146,
+          "description": "Original (not slowed) version of Crystal Castles 'Untrust Us'. The 'haunted lullaby' loop sampled across horror TikToks for the last decade.",
+          "sourceUrl": "https://www.youtube.com/watch?v=FCTpeWtM9fI",
+          "sourceTitle": "Crystal Castles — Untrust Us",
+          "mood": "haunted-lullaby",
+          "tags": [
+            "horror",
+            "tiktok-trend",
+            "music",
+            "crystal-castles",
+            "witch-house",
+            "haunted-lullaby"
+          ],
+          "hook": {
+            "path": "pool/trend-music/hooks/crystal-castles-untrust-us-hook.mp3",
+            "sizeBytes": 481580,
+            "sha256": "60838ee97e109b7acbc2a7ca05807e7941f24dae0017e718c55d33b7a76863a4",
+            "durationSec": 20
+          },
+          "via": "yt-dlp"
+        },
+        "privet-privet-2009-slowed": {
+          "path": "pool/trend-music/privet-privet-2009-slowed.mp3",
+          "sizeBytes": 2965868,
+          "sha256": "d68b6f3c8c4f328ddedf1126418f60f81f66371d622f59b33087fae24a41db4a",
+          "durationSec": 124,
+          "description": "Russian-internet horror edit, slowed phonk-adjacent. Widely used in slavic-TikTok нагнетающий dread loops.",
+          "sourceUrl": "https://www.youtube.com/watch?v=VniNh4yjHVo",
+          "sourceTitle": "Privet Privet 2009 ST (slowed) — ACIDA",
+          "mood": "phonk-horror-ru",
+          "tags": [
+            "horror",
+            "tiktok-trend",
+            "music",
+            "phonk",
+            "slowed",
+            "russian-tiktok",
+            "dread"
+          ],
+          "hook": {
+            "path": "pool/trend-music/hooks/privet-privet-2009-slowed-hook.mp3",
+            "sizeBytes": 481580,
+            "sha256": "e3ea0ac00a025cc244a310e905e542d9993f281ad13ad5ad3bfc8ffef0324141",
+            "durationSec": 20
+          },
+          "via": "yt-dlp"
+        },
+        "lovely-bastards-horror": {
+          "path": "pool/trend-music/lovely-bastards-horror.mp3",
+          "sizeBytes": 2812652,
+          "sha256": "28b9b5a04b56fff62218770f837c2ab5bbd4ef32ea741ef6f534ecfae192c3fe",
+          "durationSec": 117,
+          "description": "Aggressive horror remix used for jump-cut chase / monster-POV TikToks.",
+          "sourceUrl": "https://www.youtube.com/watch?v=PgoKHBi9zdc",
+          "sourceTitle": "Lovely Bastards (horror edit)",
+          "mood": "aggressive-horror",
+          "tags": [
+            "horror",
+            "tiktok-trend",
+            "music",
+            "chase",
+            "monster-pov",
+            "jump-cut"
+          ],
+          "hook": {
+            "path": "pool/trend-music/hooks/lovely-bastards-horror-hook.mp3",
+            "sizeBytes": 481580,
+            "sha256": "bbf0356aa503feaa9f45d0080b04d9cb6d366d12f7e7f33b63deccf964cacde2",
+            "durationSec": 20
+          },
+          "via": "yt-dlp"
+        },
+        "hide-and-seek-lizz-robinett": {
+          "path": "pool/trend-music/hide-and-seek-lizz-robinett.mp3",
+          "sizeBytes": 3446252,
+          "sha256": "d56b8eb4d16dc7ebeec06ad5e23bac725697733b53344fe49f3ef8a3165eecdf",
+          "durationSec": 144,
+          "description": "Lizz Robinett's a-cappella cover of Imogen Heap's 'Hide and Seek'. THE archetypal sad-creepy a-cappella drop for horror TikToks, especially 'left alone / abandoned' POVs.",
+          "sourceUrl": "https://www.youtube.com/watch?v=97jf8ercfQg",
+          "sourceTitle": "Hide and Seek — Lizz Robinett (Imogen Heap cover)",
+          "mood": "sad-acapella",
+          "tags": [
+            "horror",
+            "tiktok-trend",
+            "music",
+            "a-cappella",
+            "sad",
+            "imogen-heap-cover",
+            "abandoned"
+          ],
+          "hook": {
+            "path": "pool/trend-music/hooks/hide-and-seek-lizz-robinett-hook.mp3",
+            "sizeBytes": 481580,
+            "sha256": "40df07a6bbabd976c368bed73fc8286c1e21626039591b254391f35019d4df96",
+            "durationSec": 20
+          },
+          "via": "yt-dlp"
+        },
+        "tili-tili-bom": {
+          "path": "pool/trend-music/tili-tili-bom.mp3",
+          "sizeBytes": 4460012,
+          "sha256": "2d57e6d23de71cc76a497ff0b70076e91401c77fbeb482d25559b0fe90361231",
+          "durationSec": 186,
+          "description": "Russian lullaby 'Tili Tili Bom' — folk-horror bed about a nighttime creature stalking children. Trending across slavic horror TikToks 2024-2026.",
+          "sourceUrl": "https://www.youtube.com/watch?v=9PFnPaz6urs",
+          "sourceTitle": "Тили тили бом",
+          "mood": "folk-horror-lullaby",
+          "tags": [
+            "horror",
+            "tiktok-trend",
+            "music",
+            "russian",
+            "lullaby",
+            "folk-horror",
+            "stalker"
+          ],
+          "hook": {
+            "path": "pool/trend-music/hooks/tili-tili-bom-hook.mp3",
+            "sizeBytes": 481580,
+            "sha256": "9d01940a07503bbfe13cd4a57310d9da7a9b3a613152ea7168c4b43649a1bdda",
+            "durationSec": 20
+          },
+          "via": "yt-dlp"
+        },
+        "crystal-castles-transgender-slowed": {
+          "path": "pool/trend-music/crystal-castles-transgender-slowed.mp3",
+          "sizeBytes": 4905260,
+          "sha256": "194630072b478852d7810dc756f57da46a75b0c2763e6150bdf5f920edccce46",
+          "durationSec": 204,
+          "description": "Slowed+reverb of Crystal Castles 'Transgender'. Dreamy-dread atmosphere for liminal / dissociation footage.",
+          "sourceUrl": "https://www.youtube.com/watch?v=Q7x3YqHL1tA",
+          "sourceTitle": "Crystal Castles — Transgender (slowed + reverb)",
+          "mood": "slowed-dreamdread",
+          "tags": [
+            "horror",
+            "tiktok-trend",
+            "music",
+            "crystal-castles",
+            "slowed-reverb",
+            "liminal",
+            "dissociation"
+          ],
+          "hook": {
+            "path": "pool/trend-music/hooks/crystal-castles-transgender-slowed-hook.mp3",
+            "sizeBytes": 481580,
+            "sha256": "3a29f5de6ab85c4044335746ed03b2bfb8fdb2423eb4c60ef95e7762839aba91",
+            "durationSec": 20
+          },
+          "via": "yt-dlp"
+        },
+        "caretaker-childishly-fresh-eyes": {
+          "path": "pool/trend-music/caretaker-childishly-fresh-eyes.mp3",
+          "sizeBytes": 4363244,
+          "sha256": "56577df939fa8328a2bc5e8f3aca2e1fd573483f3c649f061f831397e5e081ed",
+          "durationSec": 182,
+          "description": "Track from Leyland Kirby's 'Everywhere at the End of Time' project. Used in dementia / memory-decay horror TikToks and analog-horror montages.",
+          "sourceUrl": "https://www.youtube.com/watch?v=vPArcYHANBQ",
+          "sourceTitle": "The Caretaker — Childishly Fresh Eyes",
+          "mood": "memory-decay",
+          "tags": [
+            "horror",
+            "tiktok-trend",
+            "music",
+            "the-caretaker",
+            "memory-decay",
+            "analog-horror",
+            "ambient"
+          ],
+          "hook": {
+            "path": "pool/trend-music/hooks/caretaker-childishly-fresh-eyes-hook.mp3",
+            "sizeBytes": 481580,
+            "sha256": "24b0e674501f9517111eb49664725e55a4d593f0173b17a957df052d436eb4e8",
+            "durationSec": 20
+          },
+          "via": "yt-dlp"
+        },
+        "daisy-bell-creepy": {
+          "path": "pool/trend-music/daisy-bell-creepy.mp3",
+          "sizeBytes": 3968108,
+          "sha256": "850ede1de6399440017f2f1884df9f7ad14093cbc612821aac4846690b316dc1",
+          "durationSec": 165,
+          "description": "The 1961 IBM 704 synthesized 'Daisy Bell' — the first computer-sung song, now a horror staple (HAL 9000 reference). TikTok dying-AI POVs.",
+          "sourceUrl": "https://www.youtube.com/watch?v=Pat3dVWLlRc",
+          "sourceTitle": "Daisy Bell — creepy version",
+          "mood": "uncanny-vintage",
+          "tags": [
+            "horror",
+            "tiktok-trend",
+            "music",
+            "vintage-synth",
+            "hal-9000",
+            "uncanny",
+            "dying-ai"
+          ],
+          "hook": {
+            "path": "pool/trend-music/hooks/daisy-bell-creepy-hook.mp3",
+            "sizeBytes": 481580,
+            "sha256": "9332adc7f79ea31d33de07e14d1644dcda376a6c6691de83e07b172afade7dfa",
+            "durationSec": 20
+          },
+          "via": "yt-dlp"
+        },
+        "porter-robinson-goodbye-to-a-world-slowed": {
+          "path": "pool/trend-music/porter-robinson-goodbye-to-a-world-slowed.mp3",
+          "sizeBytes": 3473324,
+          "sha256": "19c5558ae8a407210ada38988f652e0aa4a2e8621a3961e93cfd3fb9323442d4",
+          "durationSec": 145,
+          "description": "Slowed/pitched-down edit of Porter Robinson's 'Goodbye To A World'. 'End of the world' melancholic-horror bed.",
+          "sourceUrl": "https://www.youtube.com/watch?v=Ye6XUnZrwas",
+          "sourceTitle": "Porter Robinson — Goodbye To A World (slowed creepy)",
+          "mood": "melancholic-end",
+          "tags": [
+            "horror",
+            "tiktok-trend",
+            "music",
+            "porter-robinson",
+            "slowed",
+            "end-of-world",
+            "melancholic"
+          ],
+          "hook": {
+            "path": "pool/trend-music/hooks/porter-robinson-goodbye-to-a-world-slowed-hook.mp3",
+            "sizeBytes": 481580,
+            "sha256": "07183a0e3c83fac04d08ada480f4a0cfc5cead0825383df2c101b9b3c3c38216",
+            "durationSec": 20
+          },
+          "via": "yt-dlp"
+        },
+        "caretaker-its-just-a-burning-memory": {
+          "path": "pool/trend-music/caretaker-its-just-a-burning-memory.mp3",
+          "sizeBytes": 5124140,
+          "sha256": "55d0678e7984279ebd352c52cf147986eb8b650b4fcb5bdffc73c476ea7c22cf",
+          "durationSec": 213,
+          "description": "Opening track of EATEOT Stage 1. Crackly 1930s ballroom loop — TikTok backdrop for nostalgia-horror and liminal-corridor edits.",
+          "sourceUrl": "https://www.youtube.com/watch?v=c4K-Nxlxcxo",
+          "sourceTitle": "The Caretaker — It's just a burning memory",
+          "mood": "ballroom-decay",
+          "tags": [
+            "horror",
+            "tiktok-trend",
+            "music",
+            "the-caretaker",
+            "ballroom",
+            "nostalgia-horror",
+            "liminal"
+          ],
+          "hook": {
+            "path": "pool/trend-music/hooks/caretaker-its-just-a-burning-memory-hook.mp3",
+            "sizeBytes": 481580,
+            "sha256": "3494284ddd73902c9ef03c2424c0f2a64cfbfda210a76b03047e14c256f835a8",
+            "durationSec": 20
+          },
+          "via": "yt-dlp"
+        },
+        "the-sound-of-the-fear": {
+          "path": "pool/trend-music/the-sound-of-the-fear.mp3",
+          "sizeBytes": 4143212,
+          "sha256": "01c6d994e0dbcbcf11dccf25b150cc6f46768ef89cda1fedab12845f9e0006ae",
+          "durationSec": 173,
+          "description": "Generic horror drone bed often used as a low-cost, copyright-safe substitute for branded horror cues.",
+          "sourceUrl": "https://www.youtube.com/watch?v=mVrF6NDcGxQ",
+          "sourceTitle": "The Sound of the Fear",
+          "mood": "drone-horror",
+          "tags": [
+            "horror",
+            "tiktok-trend",
+            "music",
+            "drone",
+            "royalty-free",
+            "tension-bed"
+          ],
+          "hook": {
+            "path": "pool/trend-music/hooks/the-sound-of-the-fear-hook.mp3",
+            "sizeBytes": 481580,
+            "sha256": "e3b877b3134f956b62e228051ce0aaacf62adc5acf0845800559e5d3227a5b57",
+            "durationSec": 20
+          },
+          "via": "yt-dlp"
+        },
+        "broken-piano-nocopyright": {
+          "path": "pool/trend-music/broken-piano-nocopyright.mp3",
+          "sizeBytes": 3672620,
+          "sha256": "7e98a1e9cf9131776835cd07feb6fd16cb41d0064469cc1097cb5c2d9b466d12",
+          "durationSec": 153,
+          "description": "Detuned-piano horror bed, no-copyright. Drop-in for haunted-piano / abandoned-house TikToks.",
+          "sourceUrl": "https://www.youtube.com/watch?v=g4AzArdjAb0",
+          "sourceTitle": "Broken Piano — nocopyright horror",
+          "mood": "detuned-piano",
+          "tags": [
+            "horror",
+            "tiktok-trend",
+            "music",
+            "nocopyright",
+            "piano",
+            "haunted-house"
+          ],
+          "hook": {
+            "path": "pool/trend-music/hooks/broken-piano-nocopyright-hook.mp3",
+            "sizeBytes": 481580,
+            "sha256": "2590adfc1db4670d3171b9c2146ceeb891863d9607f8f5f93b9d0f642749eb04",
+            "durationSec": 20
+          },
+          "via": "yt-dlp"
+        },
+        "baldis-basics-school-theme-slowed": {
+          "path": "pool/trend-music/baldis-basics-school-theme-slowed.mp3",
+          "sizeBytes": 5856812,
+          "sha256": "d7bac40946450508d9fa805e2b5abded345e070625e27066ae88dbdbfd5169b1",
+          "durationSec": 244,
+          "description": "Slowed-down version of Baldi's Basics school theme. Used for cursed-school / liminal-classroom TikToks.",
+          "sourceUrl": "https://www.youtube.com/watch?v=Ruyxusw0_z4",
+          "sourceTitle": "Baldi's Basics — School Theme (slowed)",
+          "mood": "cursed-childhood",
+          "tags": [
+            "horror",
+            "tiktok-trend",
+            "music",
+            "baldis-basics",
+            "slowed",
+            "cursed-school",
+            "liminal"
+          ],
+          "hook": {
+            "path": "pool/trend-music/hooks/baldis-basics-school-theme-slowed-hook.mp3",
+            "sizeBytes": 481580,
+            "sha256": "5cb9cd2139bd9ad771faef01b808125e500bca44b195158949d5a86690ba9472",
+            "durationSec": 20
+          },
+          "via": "yt-dlp"
+        },
+        "zelda-majoras-mask-song-of-unhealing": {
+          "path": "pool/trend-music/zelda-majoras-mask-song-of-unhealing.mp3",
+          "sizeBytes": 4011308,
+          "sha256": "f604f4b133ba35e65056ed7ddf6825d9ad49cb14c35fc605bc2eed6e1808dbc7",
+          "durationSec": 167,
+          "description": "Reverse / unhealing variation of the Song of Healing from Majora's Mask. Classic 'lost media / haunted cartridge' TikTok cue.",
+          "sourceUrl": "https://www.youtube.com/watch?v=M81B4FGLNRw",
+          "sourceTitle": "Zelda Majora's Mask — Song of Unhealing",
+          "mood": "haunted-cartridge",
+          "tags": [
+            "horror",
+            "tiktok-trend",
+            "music",
+            "zelda",
+            "video-game",
+            "haunted-cartridge",
+            "creepypasta"
+          ],
+          "hook": {
+            "path": "pool/trend-music/hooks/zelda-majoras-mask-song-of-unhealing-hook.mp3",
+            "sizeBytes": 481580,
+            "sha256": "96e21c6993ccbb669a4e24fdfe53f97098fe40110979ce2897eed7eae364b426",
+            "durationSec": 20
+          },
+          "via": "yt-dlp"
+        },
+        "old-doll-bluerra-sai": {
+          "path": "pool/trend-music/old-doll-bluerra-sai.mp3",
+          "sizeBytes": 4791788,
+          "sha256": "6f3b273b6d60360330a0b893eb7341248d5652936e5ec74baad9e632416d7df1",
+          "durationSec": 200,
+          "description": "Original creepy-doll-music-box composition by Bluerra_sai, popular on horror-dollhouse TikToks.",
+          "sourceUrl": "https://www.youtube.com/watch?v=g75OrHYfPug",
+          "sourceTitle": "Old Doll — Bluerra_sai",
+          "mood": "music-box-doll",
+          "tags": [
+            "horror",
+            "tiktok-trend",
+            "music",
+            "music-box",
+            "doll",
+            "tiktok-creator"
+          ],
+          "hook": {
+            "path": "pool/trend-music/hooks/old-doll-bluerra-sai-hook.mp3",
+            "sizeBytes": 481580,
+            "sha256": "b49bfb840bf2eb705b1180a767fd462658c72516f5ad54fafa4821003b979f74",
+            "durationSec": 20
+          },
+          "via": "yt-dlp"
+        },
+        "caretaker-libets-delay": {
+          "path": "pool/trend-music/caretaker-libets-delay.mp3",
+          "sizeBytes": 4991660,
+          "sha256": "8dfd9496d18e9f8e41ffe8e1da20318ee6f211decd6ba7135ae9609c20920f48",
+          "durationSec": 208,
+          "description": "Track from Stage 4 of EATEOT, named after the neuroscientific delay between will and awareness. Used for dissociation / depersonalization horror TikToks.",
+          "sourceUrl": "https://www.youtube.com/watch?v=DLxitJF80vU",
+          "sourceTitle": "The Caretaker — Libet's Delay",
+          "mood": "depersonalization",
+          "tags": [
+            "horror",
+            "tiktok-trend",
+            "music",
+            "the-caretaker",
+            "ambient",
+            "dissociation",
+            "neuroscience"
+          ],
+          "hook": {
+            "path": "pool/trend-music/hooks/caretaker-libets-delay-hook.mp3",
+            "sizeBytes": 481580,
+            "sha256": "c8eda5586a4abc41f9250eeb4d5d9ba59a0907701d0f3775e8b93c213ad459a1",
+            "durationSec": 20
+          },
+          "via": "yt-dlp"
+        },
+        "jumpstyle1-creepy": {
+          "path": "pool/trend-music/jumpstyle1-creepy.mp3",
+          "sizeBytes": 1831148,
+          "sha256": "3789d1b7a2670eb3265280e1fef190f4f79389a80e4baf5daed6d222868bd083",
+          "durationSec": 76,
+          "description": "Short creepy jumpstyle edit. High-tempo dread / jump-scare loop.",
+          "sourceUrl": "https://www.youtube.com/watch?v=ndUVbbqPhy8",
+          "sourceTitle": "Jumpstyle1 — creepy version",
+          "mood": "jumpstyle-dread",
+          "tags": [
+            "horror",
+            "tiktok-trend",
+            "music",
+            "jumpstyle",
+            "jump-scare",
+            "high-bpm"
+          ],
+          "hook": {
+            "path": "pool/trend-music/hooks/jumpstyle1-creepy-hook.mp3",
+            "sizeBytes": 481580,
+            "sha256": "930ac6afd7f2d2a90203d2809a7ac9f33981974b75018499808f7636f925797f",
+            "durationSec": 20
+          },
+          "via": "yt-dlp"
+        },
+        "phantomimes-song-extended": {
+          "path": "pool/trend-music/phantomimes-song-extended.mp3",
+          "sizeBytes": 3158252,
+          "sha256": "a8e719b5cc08aef8d5570bbb97feb69505743cf84a552faa8459f2058abeac42",
+          "durationSec": 132,
+          "description": "Extended version of the Phantomimes horror theme. Bouncy-circus-meets-dread aesthetic.",
+          "sourceUrl": "https://www.youtube.com/watch?v=6qFgCHzENig",
+          "sourceTitle": "Phantomimes Song (extended)",
+          "mood": "circus-dread",
+          "tags": [
+            "horror",
+            "tiktok-trend",
+            "music",
+            "circus",
+            "dread",
+            "extended"
+          ],
+          "hook": {
+            "path": "pool/trend-music/hooks/phantomimes-song-extended-hook.mp3",
+            "sizeBytes": 481580,
+            "sha256": "3a97cf96fbe3873f29f9f00c48930518a231fb6285a64eb0ef748a5149ae9449",
+            "durationSec": 20
+          },
+          "via": "yt-dlp"
+        },
+        "hide-the-soul-possibly-in-michigan": {
+          "path": "pool/trend-music/hide-the-soul-possibly-in-michigan.mp3",
+          "sizeBytes": 3255020,
+          "sha256": "3727f220385fe1c626a858d8c9c29120590a4944bf66ade3fd23293974d46917",
+          "durationSec": 136,
+          "description": "Cult horror-musical excerpt from the 1983 short 'Possibly in Michigan'. TikTok 'cannibal-girls' / surreal-horror trend.",
+          "sourceUrl": "https://www.youtube.com/watch?v=qrpo8RmJ9Gs",
+          "sourceTitle": "Hide The Soul — Possibly in Michigan (Karen Skladany)",
+          "mood": "cult-musical",
+          "tags": [
+            "horror",
+            "tiktok-trend",
+            "music",
+            "cult-classic",
+            "horror-musical",
+            "surreal",
+            "cannibal-trend"
+          ],
+          "hook": {
+            "path": "pool/trend-music/hooks/hide-the-soul-possibly-in-michigan-hook.mp3",
+            "sizeBytes": 481580,
+            "sha256": "b0f535408b83be954658db4d007c4139704f8f300332f2d3612860df15b2f017",
+            "durationSec": 20
+          },
+          "via": "yt-dlp"
+        },
+        "sound-production-gin-tiktok-synth": {
+          "path": "pool/trend-music/sound-production-gin-tiktok-synth.mp3",
+          "sizeBytes": 2124908,
+          "sha256": "0c1985a00c6651d94d04c01765c7fbeab2166286b9aac06417e0eacb26e799b2",
+          "durationSec": 89,
+          "description": "Royalty-style synth-tension bed by Sound Production Gin. THE generic TikTok horror sting heard under thousands of recent dread videos.",
+          "sourceUrl": "https://www.youtube.com/watch?v=kco2EDtSUgo",
+          "sourceTitle": "Sound Production Gin — Creepy TikTok synth tension",
+          "mood": "synth-tension",
+          "tags": [
+            "horror",
+            "tiktok-trend",
+            "music",
+            "nocopyright",
+            "synth",
+            "tension",
+            "tiktok-default"
+          ],
+          "hook": {
+            "path": "pool/trend-music/hooks/sound-production-gin-tiktok-synth-hook.mp3",
+            "sizeBytes": 481580,
+            "sha256": "74a5e5191ec04e0e54ef9ce6deaa8da4e484bc1d987714ca5cd6be0882471737",
+            "durationSec": 20
+          },
+          "via": "yt-dlp"
+        },
+        "kero-kero-bonito-id-rather-sleep-slowed": {
+          "path": "pool/trend-music/kero-kero-bonito-id-rather-sleep-slowed.mp3",
+          "sizeBytes": 3019436,
+          "sha256": "89d1aac96072d30a986c0f67f2a0d7238abd90cbf6eec64bc9ee68bec146b6c8",
+          "durationSec": 126,
+          "description": "Slowed+reverb of KKB's 'I'd Rather Sleep'. Used for 'i wish this was a dream' POVs and depressed-creature edits.",
+          "sourceUrl": "https://www.youtube.com/watch?v=JTKJDEZUvGk",
+          "sourceTitle": "Kero Kero Bonito — I'd Rather Sleep (slowed + reverb)",
+          "mood": "sad-slowed-jpop",
+          "tags": [
+            "horror",
+            "tiktok-trend",
+            "music",
+            "kero-kero-bonito",
+            "slowed",
+            "sad",
+            "dream-pov"
+          ],
+          "hook": {
+            "path": "pool/trend-music/hooks/kero-kero-bonito-id-rather-sleep-slowed-hook.mp3",
+            "sizeBytes": 481580,
+            "sha256": "2dae9ae45ae46226f0252ebc9059129ec744e0ee99477971e831dfadc2300a60",
+            "durationSec": 20
+          },
+          "via": "yt-dlp"
+        },
+        "fnaf-4-music-box": {
+          "path": "pool/trend-music/fnaf-4-music-box.mp3",
+          "sizeBytes": 3120236,
+          "sha256": "7f9db92bfefa2076cac2d4efb9ab2106901905b388287f917f0f3d8a16d13070",
+          "durationSec": 130,
+          "description": "Music-box motif from FNaF 4. Standard cursed-childhood / haunted-toy TikTok cue.",
+          "sourceUrl": "https://www.youtube.com/watch?v=bQKzF0luZQQ",
+          "sourceTitle": "Five Nights At Freddy's 4 — Music Box",
+          "mood": "music-box-haunt",
+          "tags": [
+            "horror",
+            "tiktok-trend",
+            "music",
+            "fnaf",
+            "music-box",
+            "video-game",
+            "cursed-childhood"
+          ],
+          "hook": {
+            "path": "pool/trend-music/hooks/fnaf-4-music-box-hook.mp3",
+            "sizeBytes": 481580,
+            "sha256": "88a7b28f532d7163ecd03450abf3a7d19c3a2b950c720781992eab806272e15a",
+            "durationSec": 20
+          },
+          "via": "yt-dlp"
+        },
+        "maglo-never-tiktok": {
+          "path": "pool/trend-music/maglo-never-tiktok.mp3",
+          "sizeBytes": 4523372,
+          "sha256": "7d24fbd9fb474c531cda387d9673e6201dda3b2183dbb17c98bb9ce0a7e8894d",
+          "durationSec": 188,
+          "description": "Mag.lo's 'Never' — a TikTok-native sad-horror track. Used for unrequited-love / ghost-of-the-past edits.",
+          "sourceUrl": "https://www.youtube.com/watch?v=GjGbOh-Y_Mw",
+          "sourceTitle": "Mag.lo — Never (TikTok)",
+          "mood": "sad-tiktok-original",
+          "tags": [
+            "horror",
+            "tiktok-trend",
+            "music",
+            "tiktok-original",
+            "sad",
+            "ghost-pov"
+          ],
+          "hook": {
+            "path": "pool/trend-music/hooks/maglo-never-tiktok-hook.mp3",
+            "sizeBytes": 481580,
+            "sha256": "85113af319dad3ef501834293b5954fb8010b91d196bb2270fad23c941e93aa0",
+            "durationSec": 20
+          },
+          "via": "yt-dlp"
         }
       }
     }
