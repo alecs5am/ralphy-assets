@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-05-13T16:30:00.000Z",
+  "updated": "2026-05-23T20:21:40.000Z",
   "baseUrl": "https://raw.githubusercontent.com/alecs5am/ralphy-assets/main",
   "releaseBaseUrl": "https://github.com/alecs5am/ralphy-assets/releases/download",
   "required": {
@@ -1294,6 +1294,36 @@
           "via": "yt-dlp"
         }
       }
+    },
+    "fonts": {
+      "description": "Pixel / bitmap fonts authored for retro VHS / CRT / OSD overlays. Pair with the project VHS pipeline (rgbashift + boxblur + noise + drawgrid + vignette) for authentic found-footage typography. Latin glyphs draw via VT323 by convention; for Japanese, the halfwidth-katakana register (U+FF61-FF9F) is the period-correct choice — VCR-JP carries it natively.",
+      "license": "fontstruct-non-commercial",
+      "attributionRequired": true,
+      "defaultDestSubdir": "assets/fonts",
+      "items": {
+        "vcr-jp": {
+          "path": "pool/fonts/vcr-jp.ttf",
+          "sizeBytes": 18580,
+          "sha256": "6e97356acc37d8212499bb6087fe01515ad40c2e750955538eb4e2d1c54ed875",
+          "description": "VCR-JP — pixel TTF designed for VHS / CRT OSD overlays with Japanese support in the Halfwidth Katakana block (U+FF61-FF9F). Carries 95 ASCII glyphs, all 63 halfwidth katakana, 32 block-element drawing characters, halfwidth arrows, and 11 date/numeric kanji (年月日万円千金土木水火). Does NOT carry fullwidth katakana or hiragana — convert text to halfwidth before rendering, see README.md alongside this asset for the conversion table and ffmpeg drawtext recipe.",
+          "license": "fontstruct-non-commercial",
+          "attribution": "VCR-JP by Haley Wakamatsu (UkiyoMoji Fonts / @japanyoshi), built with FontStruct, 2022. See pool/fonts/ATTRIBUTION.md for redistribution terms.",
+          "sourceUrl": "https://fontstruct.com/fontstructions/show/2100555/vcr-jp",
+          "tags": [
+            "font",
+            "pixel",
+            "bitmap",
+            "vhs",
+            "crt",
+            "osd",
+            "japanese",
+            "halfwidth-katakana",
+            "analog-horror",
+            "retro"
+          ],
+          "via": "raw"
+        }
+      }
     }
   },
   "examples": {
@@ -1310,7 +1340,9 @@
           "height": 1920,
           "fps": 30,
           "style": "ugc-selfie",
-          "models": ["kling-v3.0-pro"],
+          "models": [
+            "kling-v3.0-pro"
+          ],
           "description": "Fluttershy-branded glitter-cream jar UGC selfie review — locked product + model master-shots passed as --ref on every gen to kill identity drift between scenes.",
           "via": "raw"
         },
@@ -1335,7 +1367,10 @@
           "height": 1920,
           "fps": 30,
           "style": "found-footage-horror",
-          "models": ["seedance-2.0", "kling-v3.0-pro"],
+          "models": [
+            "seedance-2.0",
+            "kling-v3.0-pro"
+          ],
           "description": "First-person handheld voidstomper-style occult mockumentary — cult-circle discovery + monster turn, REC dot + timecode overlay, diegetic EN captions, no VO.",
           "via": "raw"
         },
