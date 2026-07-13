@@ -1,8 +1,9 @@
 # ralphy-assets
 
-Asset and example repository for [`ralphy`](https://github.com/alecs5am/ugc-cli) (the UGC video generation CLI).
+Asset and example repository for [`ralphy`](https://github.com/alecs5am/ralphy).
 
-This repo exists so the main `ugc-cli` repo stays small. Heavy required assets (template trend music, reference videos) and complete example projects (full asset trees, render outputs, generation logs) live here and are pulled on demand.
+This repository keeps the core CLI small. Heavy required assets, reference
+media, research render corpora, and complete example projects live here.
 
 ## Layout
 
@@ -17,6 +18,7 @@ ralphy-assets/
 │       ├── <slug>.<ext>
 │       ├── INDEX.md
 │       └── ATTRIBUTION.md     # required when items have non-trivial license
+├── prompt-renders/            # generated prompt/model comparison corpus
 └── examples/                  # complete reference projects (heavy — GitHub Releases for >100MB)
     └── <example-id>/
         ├── BRIEF.md
@@ -27,6 +29,11 @@ ralphy-assets/
         ├── render/final.mp4
         └── logs/{generations,user-prompts,user-assets}.jsonl
 ```
+
+`prompt-renders/` was transferred from
+`alecs5am/ralphy:notes/research/prompts/_renders` on 2026-07-13. It contains
+generated comparison outputs plus the prompts and runner scripts that produced
+them. The ignored local `.runlog/` cache was not transferred.
 
 ### Pool kinds (extensible)
 
@@ -42,7 +49,7 @@ The `pool/` layer is open-ended — adding a new kind is just adding a new key i
 
 ## How it's pulled
 
-From the main `ugc-cli` workspace:
+From the main `ralphy` workspace:
 
 ```bash
 ralphy assets list                                          # show everything (required + pool + examples)
@@ -51,7 +58,7 @@ ralphy assets list --template italian-brainrot              # show required + ma
 ralphy assets pull <template-slug>                          # pull the template's required bundle
 ralphy assets pull-pool <kind>/<slug>                       # pull a single pool item
 ralphy assets pull-pool <kind>/<slug> --install <project>   # pull + copy into project tree
-ralphy assets catalog --write                               # regen docs/assets-catalog.md in ugc-cli
+ralphy assets catalog --write                               # regenerate the core asset catalog
 ralphy assets clean                                          # wipe local cache
 
 ralphy example list                                          # show available example projects
@@ -72,7 +79,7 @@ Every entry in `manifest.json` has a `sha256` field. The CLI verifies the digest
 ## Contributing an example
 
 ```bash
-# in the main ugc-cli workspace, after a successful project ships:
+# in the main ralphy workspace, after a successful project ships:
 ralphy example push <project-id> --to ../ralphy-assets/examples/<new-id>
 ```
 
